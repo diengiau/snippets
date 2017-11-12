@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+~~~~
+<<dd_do>>
+$1
+<</dd_do>>
+~~~~
+]]></content>
+<tabTrigger>dd</tabTrigger>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+est clear
+eststo m1: ${1}
+
+esttab * using ${2}.csv , replace collabels(none) cells(b(star fmt(4)) t(par fmt(2))) legend label varlabels(_cons Constant) stats(N r2_a , fmt(0 4) label("Obs." "Adjusted R2")) star(* 0.10 ** 0.05 *** 0.01) drop(${3:*.year *.sic2})
+est clear 
+${4}
+]]></content>
+	<tabTrigger>est</tabTrigger>
+	<!-- <scope>source.python</scope> -->
+</snippet>

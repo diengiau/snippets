@@ -19,3 +19,6 @@ snippets_install_github("diengiau/snippets", language = "r") # to specify the la
 snippets_install_github("diengiau/snippets", language = "r", name = "r") # only install r.snippets
 snippets_install_github("diengiau/snippets", language = "r", name = "markdown") # only install markdown
 ```
+
+## 2.2 For Sublime Text
+Copy the file and paste to the User data folder in your installed or portable Sublime folder. Check it by yourself because it may change by each system.

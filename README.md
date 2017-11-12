@@ -17,5 +17,5 @@ snippets_install_github("diengiau/snippets", language = "r") # to specify the la
 
 # install only one snippet file
 snippets_install_github("diengiau/snippets", language = "r", name = "r") # only install r.snippets
-snippets_install_github("diengiau/snippets", language = "r", name = "md") # only install md.snippets
+snippets_install_github("diengiau/snippets", language = "r", name = "markdown") # only install markdown
 ```

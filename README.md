@@ -11,6 +11,9 @@ To install it to Rstudio: following this [snippr](https://github.com/dgrtwo/snip
 # install snippr
 devtools::install_github("dgrtwo/snippr")
 
+# load it
+library(snippr)
+
 # install my snippets to Rstudio
 snippets_install_github("diengiau/snippets")
 snippets_install_github("diengiau/snippets", language = "r") # to specify the language
